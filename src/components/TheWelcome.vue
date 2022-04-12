@@ -1,7 +1,6 @@
 <<<<<<< HEAD =======
 <script setup>
 import WelcomeItem from "./WelcomeItem.vue";
-import ToolingIcon from "./icons/IconTooling.vue";
 import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 </script>
@@ -17,9 +16,6 @@ import CommunityIcon from "./icons/IconCommunity.vue";
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <ToolingIcon />
-    </template>
     <template #heading>Tooling</template>
 
     This project is served and bundled with
