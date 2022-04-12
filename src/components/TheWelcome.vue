@@ -1,11 +1,9 @@
-<<<<<<< HEAD =======
 <script setup>
 import WelcomeItem from "./WelcomeItem.vue";
 import ToolingIcon from "./icons/IconTooling.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 </script>
 
->>>>>>> bc40d9e (DEL-6: Remove support Icon)
 <template>
   <WelcomeItem>
     <template #heading>Documentation</template>
