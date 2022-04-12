@@ -1,7 +1,6 @@
 <<<<<<< HEAD =======
 <script setup>
 import WelcomeItem from "./WelcomeItem.vue";
-import DocumentationIcon from "./icons/IconDocumentation.vue";
 import ToolingIcon from "./icons/IconTooling.vue";
 import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
@@ -10,9 +9,6 @@ import CommunityIcon from "./icons/IconCommunity.vue";
 >>>>>>> bc40d9e (DEL-6: Remove support Icon)
 <template>
   <WelcomeItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
     <template #heading>Documentation</template>
 
     Vue’s
