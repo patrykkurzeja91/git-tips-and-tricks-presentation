@@ -1,9 +1,13 @@
 <template>
   <div class="item">
+    <i>
+      <slot name="icon"></slot>
+      <slot name="icon"></slot>
+    </i>
     <div class="details">
-      <h2>
+      <div>
         <slot name="heading"></slot>
-      </h2>
+      </div>
       <slot></slot>
     </div>
   </div>
@@ -55,7 +59,7 @@ h3 {
   }
 
   .item:before {
-    content: ' ';
+    content: " ";
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;
@@ -64,7 +68,7 @@ h3 {
   }
 
   .item:after {
-    content: ' ';
+    content: " ";
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;

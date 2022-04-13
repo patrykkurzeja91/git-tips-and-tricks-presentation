@@ -1,3 +1,3 @@
 <template>
-  <div>this is main component 2</div>
+  <div>this is main 2</div>
 </template>
